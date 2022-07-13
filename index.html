@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renjana Cita Kreasi</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="shortcut icon" href="images/icon.png">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <img src="images/renjana-logo.png" class="logo-icon" alt="Logo Renjana Cita">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/bars.png" class="bars-icon" onclick="togglemenu()">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <h2>Wujudkan Impianmu<br>Mulai Detik Ini</h2>
+                <h3>Bersama Kami</h3>
+                <p><span>Renjana Cita</span> melatihmu untuk menjadi pemimpin yang memiliki kecerdasan digital. Kembangkan potensimu melalui <span>Program Renjana Academy</span>, dengan terjun secara langsung untuk memimpin sebuah project.</p>  
+                <button type="button">Daftar Sekarang<img src="images/next-button.png" class="arrow-icon">
+                </button>
+            </div>
+            <div class="col-2">
+                <img src="images/woman.png" class="woman">
+                <div class="color-box"></div>
+            </div>
+        </div>    
+    </div>
+
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight = "0px") {
+                menuList.style.maxHeight = "130px"
+                }
+            else {
+                menuList.style.maxHeight = "0px"
+            }
+            
+        }
+    </script>
+</body>
