@@ -1,0 +1,1 @@
+This is my first portfolio for data analysis. The 2015 sales performance of pizza restaurants is the subject of this investigation. This information was collected by visiting the Maven Analytics Data Playground website.
